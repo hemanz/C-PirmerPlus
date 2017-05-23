@@ -7,29 +7,31 @@
 //
 
 #include <iostream>
-char * buildstr(char c, int n);
+
+double betsy(int);
+double pam(int);
+void estimate(int lines,double (*pf)(int));
 
 int main(int argc, const char * argv[]) {
-    int times;
-    char ch;
-    
-    std::cout << "Enter a character";
-    std::cin >> ch;
-    std::cout << "Enter an interger";
-    std::cin >> times;
-    
-    char *ps = buildstr(ch, times);
-    std::cout << ps << std::endl;
-    delete ps;
-    
+    int code;
+    std::cout << "How many lines of code do you need?";
+    std::cin  >> code;
+    std::cout << "Here's Besty's estimate:\n";
+    estimate(code, betsy);
+    std::cout << "Here's Pam's estimate: \n";
+    estimate(code, pam);
     return 0;
 }
 
-char * buildstr(char c, int n){
-    char *pstr = new char[n + 1];
-    pstr[n] = '\0';
-    while (n-- > 0) {
-        pstr[n] = c;
-    }
-    return pstr;
+double betsy(int lns){
+    return 0.05 * lns;
+}
+
+double pam(int lns){
+    return 0.03 * lns + 0.004 * lns * lns;
+}
+
+void estimate(int lines,double (*pf)(int)){
+    std::cout << lines << " lines will take ";
+    std::cout << (*pf)(lines) << " hours \n";
 }
