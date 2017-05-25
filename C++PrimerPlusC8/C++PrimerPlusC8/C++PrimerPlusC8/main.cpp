@@ -11,6 +11,11 @@
 template <typename T>
 void Swap(T &a,T &b);
 
+template <class T>
+T Add(T a,T b){
+    return a + b;
+}
+
 int main(int argc, const char * argv[]) {
     int i = 10;
     int j = 20;
@@ -26,6 +31,9 @@ int main(int argc, const char * argv[]) {
     Swap(x, y);
     std::cout << "x = " << x << " y = " << y << std::endl;
 
+    int m = 6;
+    double n = 10.02;
+    std::cout << "Add(double,int) = " << Add<double>(m, n) << std::endl;
     return 0;
 }
 
