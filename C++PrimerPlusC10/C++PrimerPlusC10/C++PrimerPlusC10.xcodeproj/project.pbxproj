@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		D9D187B31ED83B5F00CD7BA6 /* C++PrimerPlusC10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++PrimerPlusC10"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D187B61ED83B5F00CD7BA6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D9D187BE1ED9D06F00CD7BA6 /* stock10.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = stock10.h; path = ../stock10.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		D9D187B51ED83B5F00CD7BA6 /* C++PrimerPlusC10 */ = {
 			isa = PBXGroup;
 			children = (
+				D9D187BE1ED9D06F00CD7BA6 /* stock10.h */,
 				D9D187B61ED83B5F00CD7BA6 /* main.cpp */,
 			);
 			path = "C++PrimerPlusC10";
@@ -251,6 +253,7 @@
 				D9D187BC1ED83B5F00CD7BA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
