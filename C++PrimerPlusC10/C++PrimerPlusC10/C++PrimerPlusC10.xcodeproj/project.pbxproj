@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D95091CD1EE30EED00D76B90 /* stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
 		D9D187B31ED83B5F00CD7BA6 /* C++PrimerPlusC10 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++PrimerPlusC10"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D187B61ED83B5F00CD7BA6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D9D187C21EDB294000CD7BA6 /* stock10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stock10.h; sourceTree = "<group>"; };
@@ -63,6 +64,7 @@
 				D9D187C21EDB294000CD7BA6 /* stock10.h */,
 				D9D187B61ED83B5F00CD7BA6 /* main.cpp */,
 				D9D187C31EDB296800CD7BA6 /* stock10.cpp */,
+				D95091CD1EE30EED00D76B90 /* stack.h */,
 			);
 			path = "C++PrimerPlusC10";
 			sourceTree = "<group>";
