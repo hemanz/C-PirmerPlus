@@ -15,13 +15,13 @@ class Stack
 {
 private:
     enum {MAX = 10};
-    Item item[MAX];
+    Item items[MAX];
     int top;
 
 public:
     Stack();
     bool isempty() const;
-    bool isfill() const;
+    bool isfull() const;
     bool push(const Item &item);
     bool pop(Item &item);
 };
