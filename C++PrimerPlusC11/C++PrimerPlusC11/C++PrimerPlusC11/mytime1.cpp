@@ -1,12 +1,12 @@
 //
-//  mytime0.cpp
+//  mytime1.cpp
 //  C++PrimerPlusC11
 //
 //  Created by zhanghenan on 2017/6/4.
 //  Copyright © 2017年 HN. All rights reserved.
 //
 #include <iostream>
-#include "mytime0.hpp"
+#include "mytime1.hpp"
 
 Time::Time()
 {
@@ -37,7 +37,7 @@ void Time::Reset(int h, int m)
     minutes = m;
 }
 
-Time Time::Sum(const Time &t) const
+Time Time::operator+(const Time &t) const
 {
     Time sum;
     sum.minutes = minutes + t.minutes;

@@ -7,7 +7,9 @@
 //
 
 #include <iostream>
-#include "mytime0.hpp"
+//#include "mytime0.hpp"
+#include "mytime1.hpp"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     using std::cout;
@@ -25,7 +27,7 @@ int main(int argc, const char * argv[]) {
     fixing.Show();
     cout << endl;
     
-    total = coding.Sum(fixing);
+    total = coding + fixing;
     
     cout << "coding.Sum(fixing) = ";
     total.Show();
