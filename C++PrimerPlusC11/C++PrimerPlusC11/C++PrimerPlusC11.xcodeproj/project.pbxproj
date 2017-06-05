@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D95091DD1EE3ED4B00D76B90 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95091DC1EE3ED4B00D76B90 /* main.cpp */; };
 		D95091E81EE405D800D76B90 /* mytime1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95091E61EE405D800D76B90 /* mytime1.cpp */; };
+		D95B4C711EE5563200BCCEBD /* stonewt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95B4C6F1EE5563200BCCEBD /* stonewt.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		D95091DC1EE3ED4B00D76B90 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		D95091E61EE405D800D76B90 /* mytime1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mytime1.cpp; sourceTree = "<group>"; };
 		D95091E71EE405D800D76B90 /* mytime1.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mytime1.hpp; sourceTree = "<group>"; };
+		D95B4C6F1EE5563200BCCEBD /* stonewt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stonewt.cpp; sourceTree = "<group>"; };
+		D95B4C701EE5563200BCCEBD /* stonewt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stonewt.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				D95091DC1EE3ED4B00D76B90 /* main.cpp */,
 				D95091E71EE405D800D76B90 /* mytime1.hpp */,
 				D95091E61EE405D800D76B90 /* mytime1.cpp */,
+				D95B4C701EE5563200BCCEBD /* stonewt.hpp */,
+				D95B4C6F1EE5563200BCCEBD /* stonewt.cpp */,
 			);
 			path = "C++PrimerPlusC11";
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D95091DD1EE3ED4B00D76B90 /* main.cpp in Sources */,
+				D95B4C711EE5563200BCCEBD /* stonewt.cpp in Sources */,
 				D95091E81EE405D800D76B90 /* mytime1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +263,7 @@
 				D95091E21EE3ED4B00D76B90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
