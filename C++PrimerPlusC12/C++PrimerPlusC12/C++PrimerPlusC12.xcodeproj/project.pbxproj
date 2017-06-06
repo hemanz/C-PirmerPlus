@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D95B4C7E1EE577B500BCCEBD /* main.cpp */,
-				D95B4C851EE5782500BCCEBD /* stringbad.cpp */,
 				D95B4C861EE5782500BCCEBD /* stringbad.hpp */,
+				D95B4C851EE5782500BCCEBD /* stringbad.cpp */,
 			);
 			path = "C++PrimerPlusC12";
 			sourceTree = "<group>";
@@ -257,6 +257,7 @@
 				D95B4C841EE577B500BCCEBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
