@@ -21,6 +21,7 @@ StringBad::StringBad(const char *s)
     cout << num_string << ": \"" << str << "\" object created\n";
 }
 
+
 StringBad::StringBad()
 {
     len = 4;
