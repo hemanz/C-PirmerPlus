@@ -21,7 +21,6 @@ StringBad::StringBad(const char *s)
     cout << num_string << ": \"" << str << "\" object created\n";
 }
 
-
 StringBad::StringBad()
 {
     len = 4;
@@ -35,8 +34,8 @@ StringBad::~StringBad()
 {
     cout << "\"" << str << "\" object deleted,";
     --num_string;
-    cout << num_string << "left\n";
-    delete []str;
+    cout << num_string << " left\n";
+//    delete []str;
 }
 
 std::ostream & operator<<(std::ostream & os, const StringBad &st)
