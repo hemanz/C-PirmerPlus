@@ -6,7 +6,7 @@
 //  Copyright © 2017年 HN. All rights reserved.
 //
 #include <cstring>
-#include "stringbad.hpp"
+#include "string.hpp"
 
 using std::cout;
 

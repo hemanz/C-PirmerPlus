@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D95B4C7F1EE577B500BCCEBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95B4C7E1EE577B500BCCEBD /* main.cpp */; };
-		D95B4C871EE5782500BCCEBD /* stringbad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95B4C851EE5782500BCCEBD /* stringbad.cpp */; };
+		D95B4C871EE5782500BCCEBD /* string.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D95B4C851EE5782500BCCEBD /* string.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		D95B4C7B1EE577B500BCCEBD /* C++PrimerPlusC12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++PrimerPlusC12"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95B4C7E1EE577B500BCCEBD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		D95B4C851EE5782500BCCEBD /* stringbad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stringbad.cpp; sourceTree = "<group>"; };
-		D95B4C861EE5782500BCCEBD /* stringbad.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stringbad.hpp; sourceTree = "<group>"; };
+		D95B4C851EE5782500BCCEBD /* string.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = string.cpp; sourceTree = "<group>"; };
+		D95B4C861EE5782500BCCEBD /* string.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = string.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				D95B4C7E1EE577B500BCCEBD /* main.cpp */,
-				D95B4C861EE5782500BCCEBD /* stringbad.hpp */,
-				D95B4C851EE5782500BCCEBD /* stringbad.cpp */,
+				D95B4C861EE5782500BCCEBD /* string.hpp */,
+				D95B4C851EE5782500BCCEBD /* string.cpp */,
 			);
 			path = "C++PrimerPlusC12";
 			sourceTree = "<group>";
@@ -125,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D95B4C871EE5782500BCCEBD /* stringbad.cpp in Sources */,
+				D95B4C871EE5782500BCCEBD /* string.cpp in Sources */,
 				D95B4C7F1EE577B500BCCEBD /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

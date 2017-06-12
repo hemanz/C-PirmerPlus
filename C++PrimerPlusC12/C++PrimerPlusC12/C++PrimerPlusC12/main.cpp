@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "stringbad.hpp"
+#include "string.hpp"
 using std::cout;
 
 void callme1(StringBad &);
