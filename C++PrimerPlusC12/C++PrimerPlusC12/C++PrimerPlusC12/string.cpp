@@ -29,6 +29,7 @@ StringBad::StringBad(const StringBad &st)
     std::strcpy(str, st.str);
     cout << num_string << ": \"" << str << "\" object created\n";
 }
+
 StringBad::StringBad()
 {
     len = 4;
@@ -62,3 +63,5 @@ std::ostream & operator<<(std::ostream & os, const StringBad &st)
     os << st.str;
     return os;
 }
+
+
