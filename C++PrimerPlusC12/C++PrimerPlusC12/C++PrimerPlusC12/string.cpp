@@ -32,11 +32,9 @@ StringBad::StringBad(const StringBad &st)
 
 StringBad::StringBad()
 {
-    len = 4;
-    str = new char[4];
-    std::strcpy(str, "C++");
-    num_string++;
-    cout <<  num_string << ": \"" << str << "\" object created\n";
+    len = 0;
+    str = new char[1];
+    str[0] = '\0';
 }
 
 StringBad::~StringBad()
