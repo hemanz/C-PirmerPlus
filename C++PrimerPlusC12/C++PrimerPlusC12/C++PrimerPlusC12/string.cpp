@@ -1,5 +1,5 @@
 //
-//  stringbad.cpp
+//  string .cpp
 //  C++PrimerPlusC12
 //
 //  Created by zhanghenan on 2017/6/5.
@@ -9,10 +9,16 @@
 #include "string.hpp"
 
 using std::cout;
+using std::cin;
 
-int StringBad::num_string = 0;
+int String ::num_string = 0;
 
-StringBad::StringBad(const char *s)
+int String::HowMany()
+{
+    return num_string;
+}
+
+String ::String (const char *s)
 {
     len = std::strlen(s);
     str = new char[len + 1];
@@ -21,7 +27,7 @@ StringBad::StringBad(const char *s)
     cout << num_string << ": \"" << str << "\" object created\n";
 }
 
-StringBad::StringBad(const StringBad &st)
+String ::String (const String  &st)
 {
     num_string++;
     len = st.len;
@@ -30,22 +36,23 @@ StringBad::StringBad(const StringBad &st)
     cout << num_string << ": \"" << str << "\" object created\n";
 }
 
-StringBad::StringBad()
+String ::String ()
 {
-    len = 0;
+    len = 4;
     str = new char[1];
     str[0] = '\0';
+    num_string++;
 }
 
-StringBad::~StringBad()
+String ::~String ()
 {
     cout << "\"" << str << "\" object deleted,";
     --num_string;
     cout << num_string << " left\n";
-    delete str;
+    delete []str;
 }
 
-StringBad & StringBad::operator=(const StringBad &st)
+String  & String ::operator=(const String &st)
 {
     if (this == &st)
         return *this;
@@ -56,7 +63,7 @@ StringBad & StringBad::operator=(const StringBad &st)
     return *this;
 }
 
-std::ostream & operator<<(std::ostream & os, const StringBad &st)
+std::ostream & operator<<(std::ostream & os, const String  &st)
 {
     os << st.str;
     return os;

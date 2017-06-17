@@ -12,19 +12,32 @@
 #include <stdio.h>
 #include <iostream>
 
-class StringBad
+using std::ostream;
+using std::istream;
+
+class String
 {
 private:
     char *str;
     int len;
     static int num_string;
+    static const int LINLIM = 80;
 
 public:
-    StringBad(const char *s);
-    StringBad(const StringBad &st);
-    StringBad();
-    ~StringBad();
-    StringBad & operator=(const StringBad &st);
-    friend std::ostream & operator<<(std::ostream &os, const StringBad &st);
+    //constructors and other methods
+    String(const char *s);
+    String(const String &st);
+    String();
+    ~String();
+    int length () const {return len;}
+    
+    //overloaded operator methods
+    String & operator=(const char *);
+    String & operator=(const String &st);
+    char & operator[](int i);
+    const char & operator[](int i) const;
+    friend std::ostream & operator<<(ostream &os, const String &st);
+    friend std::istream & operator>>(istream &is, String &st);
+    static int HowMany();
 };
 #endif /* stringbad_hpp */

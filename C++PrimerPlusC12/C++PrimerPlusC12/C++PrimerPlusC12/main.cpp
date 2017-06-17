@@ -10,16 +10,16 @@
 #include "string.hpp"
 using std::cout;
 
-void callme1(StringBad &);
-void callme2(StringBad);
+void callme1(String  &);
+void callme2(String);
 
 int main(int argc, const char * argv[]) {
     using std::endl;
     {
         cout << "Starting an inner block. \n";
-        StringBad headline1("Celery Stalks at Midnight");
-        StringBad headline2("Lettuce Prey");
-        StringBad sports("Spinach Leaves Bowl for Dollars");
+        String  headline1("Celery Stalks at Midnight");
+        String  headline2("Lettuce Prey");
+        String  sports("Spinach Leaves Bowl for Dollars");
         cout << "headline1:" << headline1 << endl;
         cout << "headline2:" << headline2 << endl;
         cout << "sports:" << sports << endl;
@@ -28,10 +28,10 @@ int main(int argc, const char * argv[]) {
         callme2(headline2);
         cout << "headline2:" << headline2 << endl;
         cout << "Initialize one object to another:\n";
-        StringBad sailor = sports;
+        String  sailor = sports;
         cout << "sailor:" << sailor << endl;
         cout << "Assign one object to another:\n";
-        StringBad knot;
+        String  knot;
         knot = headline1;
         cout << "knot:" << knot << endl;
         cout << "Exiting the Block";
@@ -39,13 +39,13 @@ int main(int argc, const char * argv[]) {
     return 0;
 }
 
-void callme1(StringBad &rsb)
+void callme1(String  &rsb)
 {
     cout << "String passed by reference:\n";
     cout << "   \"" << rsb << "\"\n";
 }
 
-void callme2(StringBad sb)
+void callme2(String  sb)
 {
     cout << "String passed by value:\n";
     cout << "   \"" << sb << "\"\n";
