@@ -14,4 +14,3 @@ int String::HowMany()
 {
     return num_string;
 }
-
